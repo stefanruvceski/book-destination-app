@@ -1,0 +1,11 @@
+.my-label{
+    flex-wrap: wrap-reverse;
+    font-size: 20pt;
+}
+.my-btn{
+    margin-top: 20pt;
+    height: 80pt;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}

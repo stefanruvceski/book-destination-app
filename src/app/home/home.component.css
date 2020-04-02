@@ -1,0 +1,54 @@
+.card {
+    background-color: rgba(63, 59, 59,0.5);
+   
+    color: #ffffff;
+    margin: 20 15 10;
+    height: 250pt;
+}
+.card-layout {
+    padding: 20;
+}
+ .h1 {
+    margin-top: 5pt;
+    margin-left: 10pt;
+    vertical-align: top;
+    color: "white";
+    text-align: left;
+    
+}
+
+.background{
+    height: 100%;
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-beautiful-gradient-caixia-starry-night-sky-stars-background-backgroundstar-backgroundgradient-backgroundnight-image_85689.jpg")  no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.my-body{
+    margin-top: 40pt;
+    font-size: 15pt;
+}
+.my-btn{
+    margin-right: 10px;
+    float: right;
+    height: 40pt;
+    width: 40pt;
+    border-radius: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.my-label{
+    background-color: #5bc0de ;
+    height: 40pt;
+    padding-right: 10pt;
+    padding-left: 10pt;
+    border-radius: 100%;
+    color: black;
+    font-weight: bold;
+    font-size: 20pt;
+    text-align: center;
+}

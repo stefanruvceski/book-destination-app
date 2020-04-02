@@ -1,0 +1,39 @@
+.my-input{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    height: 190px;
+    font-size: xx-large;
+}
+
+.my-image{
+    rotate: -10;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 15%;
+    
+}
+
+.my-button{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 25px;
+    font-weight: bold;
+    height: 200px;
+}
+
+.my-label{
+    margin-top: 2%;
+    text-align: center;
+}
+
+.my-form{
+    vertical-align: middle;
+    height: 100%;
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-beautiful-gradient-caixia-starry-night-sky-stars-background-backgroundstar-backgroundgradient-backgroundnight-image_85689.jpg")  no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

@@ -1,0 +1,18 @@
+<StackLayout class="my-form form">
+    <Image class="my-image" src="https://i.imgur.com/ULDKPkU.png"></Image>
+    <StackLayout class="input-field">
+        <TextField hint="email"hint="Email" keyboardType="email" autocorrect="false" autocapitalizationType="none" class="my-input input -rounded-lg"></TextField>
+    </StackLayout>
+
+<StackLayout class="input-field">
+    <TextField hint="Password" secure="true" autocapitalizationType="none" class="my-input input -rounded-lg"></TextField>
+</StackLayout>
+
+<StackLayout class="input-field">
+    <TextField hint="Confirm Password" secure="true" autocapitalizationType="none" class="my-input input -rounded-lg">
+    </TextField>
+</StackLayout>
+
+    <Button  text="Sing Up" (tap)="onTap('home')" class="my-button btn btn-primary -rounded-lg"></Button>
+    <Label (tap)="onTap('login')" class="my-label" text="Have an account?"></Label>
+</StackLayout>

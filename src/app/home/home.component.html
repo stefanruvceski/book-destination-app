@@ -1,0 +1,23 @@
+
+<GridLayout class="background">
+    <StackLayout>
+    <DockLayout width="90%" height="8%" stretchLastChild="false">
+        <Label text="Stefan" dock="left" class="my-label label-primary"></Label>
+        <Button text="✖" (tap)="onX()" dock="right" class="my-btn -rounded-lg -primary"></Button>
+    </DockLayout>
+    <ScrollView >
+        
+        <StackLayout>
+            <CardView (tap)="ontap(item)" *ngFor="let item of data"  class="card" elevation="60" radius="20" ios:shadowRadius="3">
+                <GridLayout style="height: 100%;">
+                    <DockLayout  width="90%" height="90%"  stretchLastChild="false" >
+                        <Image dock="right"  width="37%" height="100%"   src="{{item.image}}"  ></Image>
+                        <Label class="body my-body" textWrap="true" text="{{item.content}}" dock="left" width="60%"  ></Label>    
+                    </DockLayout>
+                    <Label class="h1" text="{{item.heading}}" ></Label>
+                </GridLayout>   
+            </CardView>
+        </StackLayout>
+    </ScrollView>
+</StackLayout>
+</GridLayout>
